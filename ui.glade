@@ -263,7 +263,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <signal name="clicked" handler="on_botao10_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_botao_divisao_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="left_attach">3</property>
@@ -277,6 +277,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="clicked" handler="on_botao_porcentagem_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="left_attach">2</property>
